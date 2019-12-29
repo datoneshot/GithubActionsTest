@@ -20,4 +20,10 @@ class GithubActionsTestTests: XCTestCase {
         let result = vc.add(10, 20)
         XCTAssertEqual(result, 30)
     }
+
+    func testAdd1() {
+        let vc = ViewController()
+        let result = vc.add(10, 20)
+        XCTAssertEqual(result, 40)
+    }
 }
