@@ -15,3 +15,10 @@ class ViewController: UIViewController {
     }
 }
 
+// MARK: Func demo for test github actions
+extension ViewController {
+    func add(_ a: Int, _ b: Int) -> Int {
+        return a + b
+    }
+}
+
