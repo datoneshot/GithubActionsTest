@@ -1,0 +1,6 @@
+name: 'Test ref actions'
+description: 'This is a file for test ref actions of github actions'
+inputs:
+    repository:
+        description: 'Repository name with owner. For example, actions/hello-actions'
+        default: ${{ github.repository }}
