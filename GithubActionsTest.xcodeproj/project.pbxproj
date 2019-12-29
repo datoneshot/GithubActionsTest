@@ -14,6 +14,7 @@
 		1EC1C36C23B861A60054B658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC1C36B23B861A60054B658 /* Assets.xcassets */; };
 		1EC1C36F23B861A60054B658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC1C36D23B861A60054B658 /* LaunchScreen.storyboard */; };
 		1EC1C37F23B87B8D0054B658 /* GithubActionsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC1C37E23B87B8D0054B658 /* GithubActionsTestTests.swift */; };
+		1EC1C38823B89B890054B658 /* action.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1EC1C38723B89B890054B658 /* action.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		1EC1C37C23B87B8C0054B658 /* GithubActionsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubActionsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC1C37E23B87B8D0054B658 /* GithubActionsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubActionsTestTests.swift; sourceTree = "<group>"; };
 		1EC1C38023B87B8D0054B658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC1C38723B89B890054B658 /* action.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = action.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		1EC1C36123B861A50054B658 /* GithubActionsTest */ = {
 			isa = PBXGroup;
 			children = (
+				1EC1C38623B89B5F0054B658 /* CIActions */,
 				1EC1C36223B861A50054B658 /* AppDelegate.swift */,
 				1EC1C36423B861A50054B658 /* SceneDelegate.swift */,
 				1EC1C36623B861A50054B658 /* ViewController.swift */,
@@ -97,6 +100,22 @@
 				1EC1C38023B87B8D0054B658 /* Info.plist */,
 			);
 			path = GithubActionsTestTests;
+			sourceTree = "<group>";
+		};
+		1EC1C38623B89B5F0054B658 /* CIActions */ = {
+			isa = PBXGroup;
+			children = (
+				1EC1C38923B89C0C0054B658 /* hello-actions */,
+			);
+			path = CIActions;
+			sourceTree = "<group>";
+		};
+		1EC1C38923B89C0C0054B658 /* hello-actions */ = {
+			isa = PBXGroup;
+			children = (
+				1EC1C38723B89B890054B658 /* action.yml */,
+			);
+			path = "hello-actions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EC1C36F23B861A60054B658 /* LaunchScreen.storyboard in Resources */,
+				1EC1C38823B89B890054B658 /* action.yml in Resources */,
 				1EC1C36C23B861A60054B658 /* Assets.xcassets in Resources */,
 				1EC1C36A23B861A50054B658 /* Main.storyboard in Resources */,
 			);
